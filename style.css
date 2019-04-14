@@ -1,0 +1,140 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0px
+}
+
+
+
+@media screen and (min-width: 601px) {
+    
+    .image2{
+        display: flex;
+        justify-content:center;
+        background: url(LandingStock_image_14.jpg) no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height:601px;
+        position: relative;
+        margin: 0px
+
+    }
+    .image{
+        display: flex;
+        justify-content:center;
+        background: url(bench-accounting-49023-unsplash.jpg) no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height:601px;
+        position: relative;
+        margin: 0px;
+        
+    }
+    .message{
+        text-align: center;
+        position: absolute;
+        top:15%;
+        height:auto;
+        width:50%;
+        color: rgba(2, 35, 58, 0.884);
+        font-size: 40px;
+        padding: 5px;
+        border: 0px solid rgba(240, 6, 37, 0.781);
+        border-radius: 10px;
+        background-color: rgba(55, 75, 97, 0.123);
+        
+        
+    }
+    .message h3{
+        margin: 0px
+    }
+
+    .btn{
+        font-size: 33px;
+        border: 1px solid rgba(240, 6, 37, 0.781);
+        background-color: rgba(254, 254, 255, 0.5);  
+        /* rgba(55, 75, 97, 0.123)      */
+        font-weight: bold;
+        border-radius: 10px;
+        color: rgba(2, 35, 58, 0.884);
+        padding: 4px;
+        position: absolute;
+        top: 60%;
+        left: 43%;
+        transition: 0.5s;
+        
+    
+        
+    }
+    .btn:hover{
+        cursor: pointer;
+    }
+
+
+
+
+
+  }
+  
+@media screen and (max-width: 600px) {
+    .image2{
+        display: flex;
+        justify-content:center;
+        background: url(LandingStock_image_142.jpg) no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height:601px;
+        position: relative;
+        margin: 0px
+
+    }
+    .image{
+        display: flex;
+        justify-content:center;
+        background: url(bench-accounting-49023-unsplash2.jpg) no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height:601px;
+        position: relative;
+        margin: 0px;
+    }
+    .message{
+        text-align: center;
+        position: absolute;
+        top:15%;
+        height:auto;
+        width:90%;
+        color: rgba(2, 35, 58, 0.884);
+        font-size: 28px;
+        padding: 5px;
+        border: 0px solid rgba(240, 6, 37, 0.781);
+        border-radius: 10px;
+        background-color: rgba(55, 75, 97, 0.123)
+        
+    }
+    .message h3{
+        margin: 0px
+    }
+
+    .btn{
+        font-size: 25px;
+        border: 1px solid rgba(240, 6, 37, 0.781);
+        background-color: rgba(254, 254, 255, 0.5);
+        font-weight: bold;
+        border-radius: 10px;
+        color: rgba(2, 35, 58, 0.884);
+        padding: 4px;
+        position: absolute;
+        top: 60%;
+        left:35%
+    } 
+    
+    .btn:hover{
+        cursor: pointer;
+    }
+  
+    
+
+
+
+}
