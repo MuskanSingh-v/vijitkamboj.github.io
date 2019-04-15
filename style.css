@@ -4,13 +4,15 @@ body,html{
     margin: 0px
 }
 
+/* Contetn always comes in use whn total grid or flex box is smaller than container or justifying the content */
+/* items is used when we have to align all contentalign  */
+/* align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the container. When there is only one line, align-content has no effect. */
 
 
 @media screen and (min-width: 601px) {
     
     .image2{
         display: flex;
-        justify-content:center;
         background: url(LandingStock_image_14.jpg) no-repeat center;
         background-size: cover;
         width: 100%;
@@ -49,6 +51,12 @@ body,html{
         margin: 0px
     }
 
+    #frm{
+        display: flex;
+        justify-content: center;
+    }
+
+
     .btn{
         font-size: 33px;
         border: 1px solid rgba(240, 6, 37, 0.781);
@@ -59,8 +67,7 @@ body,html{
         color: rgba(2, 35, 58, 0.884);
         padding: 4px;
         position: absolute;
-        top: 60%;
-        left: 43%;
+        top: 70%;
         transition: 0.5s;
         
     
@@ -116,6 +123,12 @@ body,html{
         margin: 0px
     }
 
+    #frm{
+        display: flex;
+        justify-content: center;
+    }
+
+
     .btn{
         font-size: 25px;
         border: 1px solid rgba(240, 6, 37, 0.781);
@@ -125,8 +138,7 @@ body,html{
         color: rgba(2, 35, 58, 0.884);
         padding: 4px;
         position: absolute;
-        top: 60%;
-        left:35%
+        top: 70%;
     } 
     
     .btn:hover{
