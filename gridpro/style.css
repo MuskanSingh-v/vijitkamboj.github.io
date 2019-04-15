@@ -14,18 +14,27 @@ body{
 }
 
 .nav{
+    display:flex;
     justify-content: flex-start;
-    display:inline-flex;
+    flex-wrap: nowrap;
     height: auto;
-    background-color: rgba(0, 15, 29, 0.719)
+    background-color: rgba(7, 124, 124, 0.342);
+    border-radius: 7px;
+    margin:6px;
 }
 #spc{
-    justify-self: flex-end;
+    margin-left: auto;
 }
 
 .btn{
     text-align: center;
-    font-size: 15pt;
+    font-size: 20pt;
     padding:7px;
+    transition: all 0.5s;
+    font-weight: bold;
+    color: rgb(2, 36, 36)
+}
+.btn:hover{
+    font-size: 22pt;
 }
 
