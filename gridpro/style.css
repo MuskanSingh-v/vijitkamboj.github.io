@@ -1,0 +1,31 @@
+html,body{
+    height: 100%;
+    width:100%;
+}
+body{
+    margin: 0px
+}
+.container{
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width:100%;
+}
+
+.nav{
+    justify-content: flex-start;
+    display:inline-flex;
+    height: auto;
+    background-color: rgba(0, 15, 29, 0.719)
+}
+#spc{
+    justify-self: flex-end;
+}
+
+.btn{
+    text-align: center;
+    font-size: 15pt;
+    padding:7px;
+}
+
