@@ -67,21 +67,47 @@ body{
 
 .footer{
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: nowrap;
     position: fixed;
     bottom: 5px;
     height:auto;
-    width: auto;
-    border-radius: 4px;
+    width: 250px;
+    border-radius: 10px;
     background-color: rgba(1, 22, 22, 0.192);
 }
 .icon{
-    height: 40px;
-    width: 40px;
-    padding:4px
+    height: 45px;
+    width: 45px;
+    margin:5px;
     
 }
+
+#fb{
+    background-image: url(Images/SociaIcons/facebook.png);
+    background-size: cover;
+    
+}
+#ins{
+    background-image: url(Images/SociaIcons/instagram.png);
+    background-size: cover;
+    
+}
+#ln{
+    background-image: url(Images/SociaIcons/linkedin.png);
+    background-size: cover;
+    
+}
+#git{
+    background-image: url(Images/SociaIcons/github.png);
+    background-size: cover;
+    
+}
+
+}
+
+
+
 }
 
 
