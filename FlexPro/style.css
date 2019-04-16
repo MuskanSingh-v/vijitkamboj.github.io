@@ -130,9 +130,11 @@ body{
             flex-wrap: nowrap;
 
             height: auto;
-            width:100%;
+            width:98%;
             position: fixed;
-            background-color: rgba(230, 233, 233, 0.726);
+            top:1%;
+            background-color: rgba(1, 22, 22, 0.192);
+            border-radius: 8px;
         }
     
             .btn{
